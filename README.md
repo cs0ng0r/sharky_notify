@@ -15,9 +15,10 @@ _Egy nagyon egyszerű értesítési rendszer, letisztult konfigurációval, egys
     ```
 
 - **Server Oldal:**
-  ```lua
-  TriggerClientEvent("sharky_notify:sendNotify", source, message, type, duration, title)
-  ```
+  - Trigger
+    ```lua
+    TriggerClientEvent("sharky_notify:sendNotify", source, message, type, duration, title)
+    ```
 
 ### Paraméterek:
 - **message:** A szöveg, amit megjelenít a notify.
@@ -57,9 +58,10 @@ _A very simple notification system with a clean configuration and easy customiza
     ```
 
 - **Server-Side:**
-  ```lua
-  TriggerClientEvent("sharky_notify:sendNotify", source, message, type, duration, title)
-  ```
+ - Trigger
+    ```lua
+    TriggerClientEvent("sharky_notify:sendNotify", source, message, type, duration, title)
+    ```
 
 ### Parameters:
 - **message:** The text displayed by the notification.
