@@ -1,4 +1,3 @@
-:HU:
 # Notify Script
 
 _Egy nagyon egyszerű értesítési rendszer, letisztult konfigurációval, egyszerű szerkeszthetőséggel._
