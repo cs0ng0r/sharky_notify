@@ -11,12 +11,13 @@ window.addEventListener("message", function (event) {
       return;
     }
 
-    let notifyType = settings.types[event.data.notifyType] || settings.types["info"];
+    let notifyType =
+      settings.types[event.data.notifyType] || settings.types["info"];
     let title = event.data.title || notifyType.title;
 
     let notification = document.createElement("div");
     notification.className = "notification show";
-    notification.style.backgroundColor = notifyType.styling.background || "#fff";
+    notification.style.background = notifyType.styling.background || "#fff";
 
     notification.innerHTML = `
             <div class="icon" style="color: ${notifyType.styling.icon_color};">
