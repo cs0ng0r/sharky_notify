@@ -57,8 +57,8 @@ _A very simple notification system with a clean configuration and easy customiza
     TriggerEvent("sharky_notify:sendNotify", message, type, duration, title)
     ```
 
-- **Server-Side:**
- - Trigger
+- **Server Side:**
+  - Trigger
     ```lua
     TriggerClientEvent("sharky_notify:sendNotify", source, message, type, duration, title)
     ```
