@@ -69,7 +69,6 @@ _A very simple notification system with a clean configuration and easy customiza
 - **title:** The title of the notification.
 
 ### Example Notify:
-### Config Példa:
 ```
 ["info"] = {
         icon = "fas fa-info-circle",
